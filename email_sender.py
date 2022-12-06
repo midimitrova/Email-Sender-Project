@@ -1,4 +1,6 @@
 from email.message import EmailMessage
+
+#for security reasons password is saved in another file: password_variable
 from password_variable import password
 import ssl
 import smtplib
